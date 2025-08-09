@@ -1,0 +1,8 @@
+[gd_resource type="ConfigFile" load_steps=2 format=2]
+
+[application]
+config/name="Zoo Escape!"
+run/main_scene="res://Main.tscn"
+
+[input]
+push=[{"deadzone":0.5,"events":[{"type":"InputEventKey","scancode":32,"unicode":32}]}]
