@@ -3,7 +3,7 @@ extends "res://scripts/Player.gd"
 # Elephant specific ability: push boulders
 func _input(event):
     # First allow the base player to handle movement
-    ._input(event)
+    super._input(event)
     # Handle push action
     if event.is_action_pressed("push") and tilemap != null:
         var cell = tilemap.world_to_map(position)

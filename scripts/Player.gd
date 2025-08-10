@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 # Signals for collecting items and completing the level
 signal collected_star
@@ -6,7 +6,7 @@ signal collected_key
 signal level_complete
 
 # Size of one tile in pixels
-export (int) var tile_size := 32
+@export var tile_size: int = 32
 
 # Reference to the TileMap set by the Main scene
 var tilemap = null
@@ -38,19 +38,19 @@ func attempt_move(dir):
     if tilemap == null:
         return
     var cell = tilemap.world_to_map(position)
-    var target = cell + dir
-    if is_blocked(target):
+    var cell: Vector2i = tilemap.local_to_map(tilemap.to_local(position))
+    var target: Vector2i = cell + Vector2i(dir)
         return
     last_dir = dir
     # Move the player to the center of the target tile
-    position = tilemap.map_to_world(target) + Vector2(tile_size/2, tile_size/2)
+    position = tilemap.to_global(tilemap.map_to_local(target))
     # Check if the player reached the exit tile
-    if tilemap.get_cell(target.x, target.y) == 4:
+    if tilemap.get_cell_source_id(0, target) == 4:
         emit_signal("level_complete")
 
 func is_blocked(cell):
     # Tiles that block movement
-    var id = tilemap.get_cell(cell.x, cell.y)
+    var id = tilemap.get_cell_source_id(0, cell)
     return id in [1, 2, 3, 5]
 
 func _on_Detector_area_entered(area):
