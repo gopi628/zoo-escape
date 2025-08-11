@@ -37,10 +37,8 @@ func attempt_move(dir):
     # Prevent movement without a map
     if tilemap == null:
         return
-    var cell = tilemap.world_to_map(position)
-    var cell: Vector2i = tilemap.local_to_map(tilemap.to_local(position))
+    var cell: Vector2i = tilemap.world_to_map(position)
     var target: Vector2i = cell + Vector2i(dir)
-        return
     last_dir = dir
     # Move the player to the center of the target tile
     position = tilemap.to_global(tilemap.map_to_local(target))
