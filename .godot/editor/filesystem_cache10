@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1754950154
-Main.tscn::PackedScene/PackedScene::-1::1754878733::0::1::::<><><>0<>0<><>::res://scripts/Main.gd
+::res://::1754957239
+Main.tscn::PackedScene::518839152915778538::1754956696::0::1::::<><><>0<>0<><>::uid://17un2cjdtgde::::res://scripts/Main.gd
 README.md::TextFile/TextFile::-1::1754878733::0::1::::<><><>0<>0<><>::
 TileSet.tres::TileSet/TileSet::-1::1754878733::0::1::::<><><>0<>0<><>::res://assets/tiles.png
-::res://assets/::1754947901
+::res://assets/::1754957198
 collectible_key.png::CompressedTexture2D/CompressedTexture2D::8699699525714737167::1754871078::1754880177::1::::<><><>0<>0<>be0225b9caa436a43f35d6094691ac64<>res://.godot/imported/collectible_key.png-a7b95abb2d3b4de42a002c4de41d3118.ctex::
 collectible_star.png::CompressedTexture2D/CompressedTexture2D::6520742084928406930::1754871078::1754880177::1::::<><><>0<>0<>2b59ebd104d1e4707885ec063fc65e42<>res://.godot/imported/collectible_star.png-3346318a65cc723d92d9c790e74122fa.ctex::
 elephant.png::CompressedTexture2D/CompressedTexture2D::394133576002028411::1754871078::1754880177::1::::<><><>0<>0<>c5d311174f4c03cd2111f0d9e3eca41a<>res://.godot/imported/elephant.png-2095975624d64c872a0788fffa9fc396.ctex::
@@ -13,6 +13,7 @@ parrot.png::CompressedTexture2D/CompressedTexture2D::4293663390504976577::175487
 player.png::CompressedTexture2D/CompressedTexture2D::3965735967530852777::1754946057::1754947901::1::::<><><>0<>0<>46083f9702e6fc57fad336816c19a505<>res://.godot/imported/player.png-be2216fcaabb5c62aa2466cd9a5726a8.ctex::
 power_banana.png::CompressedTexture2D/CompressedTexture2D::3709829812922267832::1754871078::1754880177::1::::<><><>0<>0<>34bfd778748e65ab2163e5bb026ccef4<>res://.godot/imported/power_banana.png-f5bbe43733a263d93808ea5804e54b3f.ctex::
 power_peanut.png::CompressedTexture2D/CompressedTexture2D::3882511448251801031::1754871078::1754880177::1::::<><><>0<>0<>b3622844585e22f5740e7f764fa3e07e<>res://.godot/imported/power_peanut.png-9b4c9730e4e95828487e595910a3202d.ctex::
+tiles.png::CompressedTexture2D/CompressedTexture2D::6055190945179899968::1754957188::1754957198::1::::<><><>0<>0<>9b40ac758311584dbdb6b09ef0c9fa63<>res://.godot/imported/tiles.png-0d11a4bcdfb48056f67a66da241684a1.ctex::
 tile_boulder.png::CompressedTexture2D/CompressedTexture2D::7519034678158410919::1754871078::1754880177::1::::<><><>0<>0<>928e2d8aca30b77fd926fa36c634f9ae<>res://.godot/imported/tile_boulder.png-85c01695a97307338935ef500f3953d7.ctex::
 tile_bridge.png::CompressedTexture2D/CompressedTexture2D::2974820206194470511::1754871078::1754880177::1::::<><><>0<>0<>6ee2672afcd0eec4924e447a7c249387<>res://.godot/imported/tile_bridge.png-3ea10a406a89272fdc8625870cbc4f89.ctex::
 tile_dirt.png::CompressedTexture2D/CompressedTexture2D::4706342040113142315::1754871078::1754880177::1::::<><><>0<>0<>9f8c32111f128db98d9cf043a09c9194<>res://.godot/imported/tile_dirt.png-a3f03531da2a74142a8b2a70d5a6b1ea.ctex::
@@ -33,7 +34,7 @@ elephant.tscn::PackedScene/PackedScene::-1::1754878733::0::1::::<><><>0<>0<><>::
 Key.tscn::PackedScene/PackedScene::-1::1754878733::0::1::::<><><>0<>0<><>::res://assets/tiles.png
 Player.tscn::PackedScene/PackedScene::-1::1754878733::0::1::::<><><>0<>0<><>::res://scripts/Player.gd<>res://assets/player.png
 Star.tscn::PackedScene/PackedScene::-1::1754878733::0::1::::<><><>0<>0<><>::res://assets/tiles.png
-::res://scripts/::1754880177
-Elephant.gd::GDScript/GDScript::8560778277654379348::1754878733::0::1::::<>CharacterBody2D<><>0<>0<><>::
-Main.gd::GDScript/GDScript::1892208999528592106::1754878733::0::1::::<>Node2D<><>0<>0<><>::
-Player.gd::GDScript/GDScript::2085506510668563403::1754878733::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/::1754956696
+Elephant.gd::GDScript::8560778277654379348::1754956696::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Main.gd::GDScript/GDScript::1892208999528592106::1754956201::0::1::::<>Node2D<><>0<>0<><>::
+Player.gd::GDScript/GDScript::2085506510668563403::1754953586::0::1::::<>CharacterBody2D<><>0<>0<><>::
